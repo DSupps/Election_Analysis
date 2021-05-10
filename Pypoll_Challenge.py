@@ -14,6 +14,7 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 
 # Initialize a total vote counter.
 total_votes = 0
+total_ballots = 0
 
 # Candidate Options and candidate votes.
 candidate_options = []
@@ -46,7 +47,8 @@ with open(file_to_load) as election_data:
 
         # Add to the total vote count
         total_votes = total_votes + 1
-
+        total_ballots = total_ballots + 1
+        
         # Get the candidate name from each row.
         candidate_name = row[2]
 
@@ -99,7 +101,7 @@ with open(file_to_save, "w") as txt_file:
         # 6b: Retrieve the county vote count.
         ballots = county_votes.get(county_name)
         # 6c: Calculate the percentage of votes for the county.
-        ballots_percentage = float(ballots) / float(ballots) * 100
+        ballots_percentage = float(ballots) / float(total_ballots) * 100
 
          # 6d: Print the county results to the terminal.
         county_results = (f"{county_name}: {ballots_percentage:.1f}% ({ballots:,})\n")
@@ -155,5 +157,6 @@ with open(file_to_save, "w") as txt_file:
 
     # Save the winning candidate's name to the text file
     txt_file.write(winning_candidate_summary)
+    
 
     
