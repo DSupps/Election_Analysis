@@ -32,6 +32,8 @@ The analysis of the election shows that:
 - The winner of the election was:
     - Diana DeGette who received 73.8% of the vote and 272,892 number of votes. 
 
+![election_results](https://user-images.githubusercontent.com/36451701/117600797-a4f94e00-b11a-11eb-9f16-4c604b4f9254.png)
+
 ## Challenge Overview
 *The Colorado Board of Elections also requested some additional data about voting county details for the election audit.*
 
