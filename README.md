@@ -11,7 +11,7 @@
 
 In addition to the election audit, they want to know if there is a way to automate the process so that it can be used for other districts and local elections. 
 
-## Resources
+### Project Resources:
 - Data Source: election_results.csv
 - Software: Python 3.9.4, Visual Studio Code, 1.56.0
 
