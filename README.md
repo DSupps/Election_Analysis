@@ -15,7 +15,7 @@ In addition to the election audit, they want to know if there is a way to automa
 - Data Source: election_results.csv
 - Software: Python 3.9.4, Visual Studio Code, 1.56.0
 
-## Project Summary:
+## Project Results:
 The analysis of the election shows that:
 - There were 369,711 votes cast in the congressional election.
 
@@ -34,19 +34,17 @@ The analysis of the election shows that:
 
 ![election_results](https://user-images.githubusercontent.com/36451701/117600797-a4f94e00-b11a-11eb-9f16-4c604b4f9254.png)
 
-## Challenge Overview
+## Project Summary:
+- The voter turnout and count for each county was:
+    - Jefferson County with 10.5% of the vote and 38,855 total votes.
+    - Denver County with 82.8% of the vote and 306,055 total votes.
+    - Arapahoe County with 6.7% of the vote and 24,801 total votes. 
+
 *The Colorado Board of Elections also requested some additional data about voting county details for the election audit.*
 
 1. Provide a breakdown of voter turnout for each county. 
 2. Calculate the percentage of votes from each county out of the total count.
 3. Determine the county with the highest turnout.
-
-## Challenge Summary
-
-- The voter turnout and count for each county was:
-    - Jefferson County with 10.5% of the vote and 38,855 total votes.
-    - Denver County with 82.8% of the vote and 306,055 total votes.
-    - Arapahoe County with 6.7% of the vote and 24,801 total votes. 
 
 ## Election-Audit Summary
 The election-audit script created worked extremely well for me.  The script is automated and will allow any congressional district, senatorial district, or any local election authority to get a quick election audit once the data for the elections is made available. 
