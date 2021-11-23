@@ -1,6 +1,6 @@
 # Election_Analysis
 
-## Project Overview - Overview of the Election Audit
+## Project Overview:
 *A Colorado Board of Elections would like to have the following tasks completed as part of an election audit for their congressional election.*
 
 1. Calculate the total number of votes cast.
@@ -15,7 +15,7 @@ In addition to the election audit, they want to know if there is a way to automa
 - Data Source: election_results.csv
 - Software: Python 3.9.4, Visual Studio Code, 1.56.0
 
-## Summary: Election - Audit Results
+## Project Summary:
 The analysis of the election shows that:
 - There were 369,711 votes cast in the congressional election.
 
