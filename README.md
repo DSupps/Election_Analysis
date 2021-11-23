@@ -1,5 +1,7 @@
 # Election Audit Analysis
 
+![election](https://user-images.githubusercontent.com/36451701/143140009-934f0aa7-5d74-4020-a19d-8f47b15af81e.png)
+
 ## Project Overview:
 *A Colorado Board of Elections would like to have the following tasks completed as part of an election audit for their congressional election.*
 
